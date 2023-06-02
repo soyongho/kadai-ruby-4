@@ -45,11 +45,11 @@
     <% content = params['content'] %>
     <h2>送信内容</h2>
     <table class="table">
-      <tr class="row"><td class="col-sm-4">会社名</td><td class="col-sm-8"><%= company %></td></tr>
-      <tr class="row"><td class="col-sm-4">氏名</td><td class="col-sm-8"><%= name %></td></tr>
-      <tr class="row"><td class="col-sm-4">メール</td><td class="col-sm-8"><%= mail %></td></tr>
-      <tr class="row"><td class="col-sm-4">電話番号</td><td class="col-sm-8"><%= tel %></td></tr>
-      <tr class="row"><td class="col-sm-4">内容</td><td class="col-sm-8"><%= content.gsub(/\r\n|\r|\n/, "<br>") %></td></tr>
+      <tr class="row"><td class="col-4 col-sm-4">会社名</td><td class="col-8 col-sm-8"><%= company %></td></tr>
+      <tr class="row"><td class="col-4 col-sm-4">氏名</td><td class="col-8 col-sm-8"><%= name %></td></tr>
+      <tr class="row"><td class="col-4 col-sm-4">メール</td><td class="col-8 col-sm-8"><%= mail %></td></tr>
+      <tr class="row"><td class="col-4 col-sm-4">電話番号</td><td class="col-8 col-sm-8"><%= tel %></td></tr>
+      <tr class="row"><td class="col-4 col-sm-4">内容</td><td class="col-8 col-sm-8"><%= content.gsub(/\r\n|\r|\n/, "<br>") %></td></tr>
     </table>
     
     <div class="text-center mb-4">
